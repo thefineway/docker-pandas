@@ -1,6 +1,6 @@
-FROM python:3.5
+FROM python:3.6
 
-MAINTAINER Julien Maupetit <julien@tailordev.fr>
+MAINTAINER Patrick Roza <contact@patrickroza.com>
 
 ENV PYTHONUNBUFFERED 1
 

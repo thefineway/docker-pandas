@@ -1,4 +1,4 @@
-RELEASE = 0.19.0
+RELEASE = 0.19.2
 
 all: test
 
