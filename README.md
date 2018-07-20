@@ -8,6 +8,8 @@ Based on the Docker official Python 3.6 image, this image provides:
 
 * [numpy](http://www.numpy.org/)
 * [pandas](http://pandas.pydata.org/)
+* [scipy](https://www.scipy.org/)
+* [nltk](https://www.nltk.org/)
 
 ## How can I and why should I use this image?
 
@@ -19,4 +21,4 @@ Let's say you need to develop a python web app with `pandas` as a dependency. Ev
 
 To do so, simply base your `Dockerfile` on it with:
 
-    FROM patroza/pandas
+    FROM fineway/python-pandas
