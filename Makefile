@@ -1,9 +1,9 @@
-RELEASE = 0.19.2
+RELEASE = 3.6.4.2
 
 all: test
 
 build:
-	docker build -t pandas:$(RELEASE) .	
+	docker build -t fineway/python-pandas:$(RELEASE) .	
 
 test:
-	docker run pandas:$(RELEASE) python -c 'import pandas'
+	docker run fineway/python-pandas:$(RELEASE) python -c 'import pandas'
